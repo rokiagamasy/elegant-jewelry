@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+    <header class="header">
+      <div class="logo">Elegant Jewelry</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">Artists</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Prices</a></li>
+        </ul>
+      </nav>
+      <button class="btn-book" onclick="popup1()">Book Now</button>
+    </header>
+    <section class="section">
+        <div class="container">
+            <h2>Timeless Pieces for Modern Elegance</h2>
+            <p>Discover our exclusive collection of luxury, minimalist jewelry.</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="earrings.jpg">
+                    <p>Gold Twist Earrings</p>
+                </div>
+                <div class="product">
+                    <img src="ring.jpg">
+                    <p>Elegant Gold Ring</p>
+                </div>
+                <div class="product">
+                    <img src="necklace.jpg">
+                    <p>Minimalist Gold Necklace</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Elegant Jewelry</h2>
+            <p id="aboutText"> perfect for any occasion. Whether you're looking for elegance, our collection has something for everyone.</p>
+            <button id="changeTextBtn">Learn More</button>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
+        </div>
+    </section>
+    <footer>
+        <h3 id="greetingMessage"></h3>
+        <p>&copy; 2024 Elegant Jewelry. All Rights Reserved.</p>
+        <button id="toggleProductsBtn">Show/Hide Products</button>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
